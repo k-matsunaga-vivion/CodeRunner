@@ -46,7 +46,7 @@ class StatusRequest implements RequestInterface
     public function getApiURL(): string
     {
         /** @noinspection HttpUrlsUsage */
-        return 'http://api.paiza.io:80/runners/get_status';
+        return 'https://api.paiza.io/runners/get_status.json';
     }
 
     public function getMethod(): string
