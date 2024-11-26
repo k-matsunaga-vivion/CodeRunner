@@ -46,7 +46,7 @@ class CreateRequest implements RequestInterface
     public function getApiURL(): string
     {
         /** @noinspection HttpUrlsUsage */
-        return 'http://api.paiza.io:80/runners/create';
+        return 'https://api.paiza.io/runners/create.json';
     }
 
     public function getMethod(): string
