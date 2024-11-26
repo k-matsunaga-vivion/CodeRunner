@@ -46,7 +46,7 @@ class DetailsRequest implements RequestInterface
     public function getApiURL(): string
     {
         /** @noinspection HttpUrlsUsage */
-        return 'http://api.paiza.io:80/runners/get_details';
+        return 'https://api.paiza.io/runners/get_details.json';
     }
 
     public function getMethod(): string
